@@ -1,1 +1,1 @@
-C:\Users\student\Documents\GitHub\ar-vr-thi-app
+/Users/tanmeshshah/Desktop/AVR/vr-thi-thesis-app

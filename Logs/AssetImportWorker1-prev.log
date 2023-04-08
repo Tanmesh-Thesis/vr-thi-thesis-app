@@ -15,7 +15,7 @@ D:/Files/Personal Files/Documents/Personal Docs/MS/THI/Sem 2 - Assignments/AR VR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50981
+52170
 Successfully changed project path to: D:/Files/Personal Files/Documents/Personal Docs/MS/THI/Sem 2 - Assignments/AR VR/Git/ar-vr-thi-app
 D:/Files/Personal Files/Documents/Personal Docs/MS/THI/Sem 2 - Assignments/AR VR/Git/ar-vr-thi-app
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Files/Personal Files/Documents/Personal Docs/MS/THI/Sem 2 - Assignments/AR VR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 291.67 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 524.35 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,90 +63,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010878 seconds.
+Registered in 0.092632 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 193.74 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 331.40 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.296 seconds
+- Completed reload, in  3.015 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1297ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (3025ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (883ms)
-			LoadAssemblies (176ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+		EndReloadAssembly (2069ms)
+			LoadAssemblies (206ms)
+			RebuildTransferFunctionScriptingTraits (157ms)
+			SetupTypeCache (363ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (502ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1324ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (26ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (194ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				RefreshPlugins (332ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (451ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.043070 seconds.
+Registered in 0.925601 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Files\Personal Files\Documents\Personal Docs\MS\THI\Sem 2 - Assignments\AR VR\Git\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Files\Personal Files\Documents\Personal Docs\MS\THI\Sem 2 - Assignments\AR VR\Git\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 142.65 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 241.45 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.145 seconds
+- Completed reload, in  4.066 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2146ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (4067ms)
+		BeginReloadAssembly (403ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (2ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1821ms)
-			LoadAssemblies (249ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (3241ms)
+			LoadAssemblies (473ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (475ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (944ms)
+			SetupTypeCache (934ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (174ms)
+			SetupLoadedEditorAssemblies (1608ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (143ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (601ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (242ms)
+				BeforeProcessingInitializeOnLoad (262ms)
+				ProcessInitializeOnLoadAttributes (990ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.51 ms, found 15 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 4.16 ms, found 15 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5427 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (58.4 KB). Loaded Objects now: 5839.
+Unloading 92 unused Assets / (58.5 KB). Loaded Objects now: 5839.
 Memory consumption went from 208.3 MB to 208.2 MB.
-Total: 4.682700 ms (FindLiveObjects: 0.511000 ms CreateObjectMapping: 0.469800 ms MarkObjects: 3.558900 ms  DeleteObjects: 0.142000 ms)
+Total: 8.663800 ms (FindLiveObjects: 0.669800 ms CreateObjectMapping: 0.664200 ms MarkObjects: 7.089000 ms  DeleteObjects: 0.238600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,247 +161,199 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8055.753992 seconds.
-  path: Assets/LociAssets/Beer.blend
-  artifactKey: Guid(f3673ae588d495b4396d9fd78c90d21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Beer.blend using Guid(f3673ae588d495b4396d9fd78c90d21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c7379c55dbdca76efb11c10c867da2') in 0.372215 seconds 
+  Time since last request: 16238.295697 seconds.
+  path: Assets/LociAssets/Beetroot.blend
+  artifactKey: Guid(980cfadb3fc0f13469064d09ab4754b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Beetroot.blend using Guid(980cfadb3fc0f13469064d09ab4754b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aaa130a6f198316189ec66e6b2080b') in 0.462477 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/LociAssets/Globe.blend
-  artifactKey: Guid(297618202281d654cb371f0cfc38698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Globe.blend using Guid(297618202281d654cb371f0cfc38698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b0d85b3395fb90a545bd9d608ddad1') in 0.235997 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/LociAssets/2_Euro.blend
+  artifactKey: Guid(7520f32eb9020ba408ffc3528ee01e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/2_Euro.blend using Guid(7520f32eb9020ba408ffc3528ee01e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cd7419ad58ec3eb20f2ea5cb1126e0') in 0.196947 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/LociAssets/Pi.blend
-  artifactKey: Guid(5902d5b21f06ad843b76ef33e0decf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Pi.blend using Guid(5902d5b21f06ad843b76ef33e0decf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454e5f6a1103d5ae7b2e4dade523113d') in 0.202959 seconds 
+  Time since last request: 0.000066 seconds.
+  path: Assets/LociAssets/Pizza.blend
+  artifactKey: Guid(e59cdcdb2be81484a854e7e657431d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Pizza.blend using Guid(e59cdcdb2be81484a854e7e657431d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270de8b74b00ac766400ef9a9cb4a5c3') in 0.462042 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/LociAssets/Root_beer.blend
-  artifactKey: Guid(a40dac9117b7b6447b39be2a18e06711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Root_beer.blend using Guid(a40dac9117b7b6447b39be2a18e06711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8775c37a080f168a085249b87c5d31') in 0.443187 seconds 
+  Time since last request: 0.000084 seconds.
+  path: Assets/LociAssets/Apt_Furniture_01.fbx
+  artifactKey: Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Apt_Furniture_01.fbx using Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9374da38826ae95a5cd441b7683fe17') in 3.061648 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/LociAssets/Bullet.blend
-  artifactKey: Guid(790d76a906fc9b747ba94697ddc937b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Bullet.blend using Guid(790d76a906fc9b747ba94697ddc937b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4cf6e715368134d09b7d24438ae8fa') in 0.067115 seconds 
+  Time since last request: 0.000083 seconds.
+  path: Assets/LociAssets/Astronaut.blend
+  artifactKey: Guid(9ce5b1e84c7f61645832697c36b8b8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Astronaut.blend using Guid(9ce5b1e84c7f61645832697c36b8b8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2db12e196a52b3c5936cb09c62d880') in 0.470350 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/LociAssets/Pirate.blend
-  artifactKey: Guid(6c3b910bc8884674482d37a55f08b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Pirate.blend using Guid(6c3b910bc8884674482d37a55f08b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55345601e3832061f304e22221514b63') in 0.050337 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Assets/LociAssets/Half.blend
+  artifactKey: Guid(345b83116bec9034aa9a56991e0e25db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Half.blend using Guid(345b83116bec9034aa9a56991e0e25db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c22b3d75b67cdae8ed908dc7733fe') in 0.539669 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/LociAssets/Dwarf.blend
-  artifactKey: Guid(7136883c72eae7f43a38fde99da31414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Dwarf.blend using Guid(7136883c72eae7f43a38fde99da31414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7581c9dd8356493a8b2d5b6204def405') in 0.107642 seconds 
+  Time since last request: 0.000084 seconds.
+  path: Assets/LociAssets/Pendulum.blend
+  artifactKey: Guid(7e2aec92e8d4a65459f1ffd62c8e2d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Pendulum.blend using Guid(7e2aec92e8d4a65459f1ffd62c8e2d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1e5a48c63fc5ac9d807fb7ae638e72') in 0.294484 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/LociAssets/Apple.blend
-  artifactKey: Guid(ef3d0f57630b0aa4087fa58f4b927d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Apple.blend using Guid(ef3d0f57630b0aa4087fa58f4b927d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51498f781e7f57643d20904e3e6a0e7f') in 0.063676 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/LociAssets/Board.blend
+  artifactKey: Guid(cfcd542212d25d94bbe5f5686b82627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Board.blend using Guid(cfcd542212d25d94bbe5f5686b82627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bb5fcb73786fa4a07fca16f7a18df7') in 0.146860 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/LociAssets/Dart_Vader.blend
-  artifactKey: Guid(dbc3f98ab443ad64eaf346196bc2dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Dart_Vader.blend using Guid(dbc3f98ab443ad64eaf346196bc2dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fd05040acbb199df0b9e41022521f3') in 0.047397 seconds 
+  Time since last request: 0.000059 seconds.
+  path: Assets/LociAssets/Rocket.blend
+  artifactKey: Guid(3443e43bcd98dbd488e06a349bd9d102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Rocket.blend using Guid(3443e43bcd98dbd488e06a349bd9d102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b14e3361dfaff9af3ea26a4a275821') in 0.182642 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/LociAssets/Boulder.blend
-  artifactKey: Guid(c880d36cd3b7c5b4aa9dad0b85f83063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Boulder.blend using Guid(c880d36cd3b7c5b4aa9dad0b85f83063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c22181544aa00059c819509e6de639c') in 0.048738 seconds 
+  Time since last request: 0.000054 seconds.
+  path: Assets/LociAssets/Groot.blend
+  artifactKey: Guid(d47f75351b5ecaa4081c9358d1aa2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Groot.blend using Guid(d47f75351b5ecaa4081c9358d1aa2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437030073fbf092632163f7922b11f24') in 0.223788 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/LociAssets/Gloves.blend
-  artifactKey: Guid(2cf5b242811bc534e8b334c3c29cf281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Gloves.blend using Guid(2cf5b242811bc534e8b334c3c29cf281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf473b74f1269521b223f7e04d496f2d') in 0.076955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/LociAssets/Ruler.blend
-  artifactKey: Guid(0d7bb5c13522fd744b25a8ed79641f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Ruler.blend using Guid(0d7bb5c13522fd744b25a8ed79641f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b039887e25c16f469439b6b7a993f9') in 0.048614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/LociAssets/Fist.blend
-  artifactKey: Guid(19d14134b96d98141a263b0f877f2c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Fist.blend using Guid(19d14134b96d98141a263b0f877f2c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610ece67da6a8e3bc42290537d2ff360') in 0.753585 seconds 
+  Time since last request: 0.000086 seconds.
+  path: Assets/LociAssets/Ladder.blend
+  artifactKey: Guid(a025190479c475f46b62a3f0ac595399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Ladder.blend using Guid(a025190479c475f46b62a3f0ac595399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444e1844c5aa11c65af5c4b3634bdaf0') in 0.088079 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000085 seconds.
-  path: Assets/LociAssets/Half.blend
-  artifactKey: Guid(345b83116bec9034aa9a56991e0e25db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Half.blend using Guid(345b83116bec9034aa9a56991e0e25db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c22b3d75b67cdae8ed908dc7733fe') in 0.092949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/LociAssets/Pendulum.blend
-  artifactKey: Guid(7e2aec92e8d4a65459f1ffd62c8e2d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Pendulum.blend using Guid(7e2aec92e8d4a65459f1ffd62c8e2d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1e5a48c63fc5ac9d807fb7ae638e72') in 0.112974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/LociAssets/Speedometer.blend
-  artifactKey: Guid(c4ddc5badd9e0334cac56751a644b8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Speedometer.blend using Guid(c4ddc5badd9e0334cac56751a644b8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd702382ad165ee37007ca16643a4c877') in 0.141467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/LociAssets/Limo.blend
-  artifactKey: Guid(fc1ef62d1cbad234181e1c5c50bcf0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Limo.blend using Guid(fc1ef62d1cbad234181e1c5c50bcf0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0205880a887dd381b9c59edc033022') in 0.197540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/LociAssets/Groot.blend
-  artifactKey: Guid(d47f75351b5ecaa4081c9358d1aa2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Groot.blend using Guid(d47f75351b5ecaa4081c9358d1aa2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437030073fbf092632163f7922b11f24') in 0.171451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/LociAssets/Ladder.blend
-  artifactKey: Guid(a025190479c475f46b62a3f0ac595399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Ladder.blend using Guid(a025190479c475f46b62a3f0ac595399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444e1844c5aa11c65af5c4b3634bdaf0') in 0.065947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
   path: Assets/LociAssets/wall_plant.blend
   artifactKey: Guid(6d29bc8718a107546bcc5407e9231e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/wall_plant.blend using Guid(6d29bc8718a107546bcc5407e9231e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec18eec3a23114603ab90da5d9301733') in 0.250583 seconds 
+Start importing Assets/LociAssets/wall_plant.blend using Guid(6d29bc8718a107546bcc5407e9231e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec18eec3a23114603ab90da5d9301733') in 0.527586 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/LociAssets/Rainbow.blend
-  artifactKey: Guid(45e5b2c7a309c014f8b635092b37ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Rainbow.blend using Guid(45e5b2c7a309c014f8b635092b37ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367c5517ca11c3c911afbd4c0b2cb30d') in 0.545826 seconds 
+  Time since last request: 0.000099 seconds.
+  path: Assets/LociAssets/Weighing_Scale.blend
+  artifactKey: Guid(2e95b164b6e312941aa006bdecd61a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Weighing_Scale.blend using Guid(2e95b164b6e312941aa006bdecd61a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd893331ceb149658c332f6f8390b18df') in 0.355114 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/LociAssets/Arrow.blend
-  artifactKey: Guid(cf1a81306c129e34992b94e364cf4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LociAssets/Arrow.blend using Guid(cf1a81306c129e34992b94e364cf4c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e59d1bf70c53646b48d28474a7b07e9') in 0.157483 seconds 
+  Time since last request: 264.077295 seconds.
+  path: Assets/LociAssets/Apple.blend
+  artifactKey: Guid(ef3d0f57630b0aa4087fa58f4b927d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Apple.blend using Guid(ef3d0f57630b0aa4087fa58f4b927d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b36ea9c67fa73f0361bb6b173da3499') in 0.583103 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.049446 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Files\Personal Files\Documents\Personal Docs\MS\THI\Sem 2 - Assignments\AR VR\Git\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Files\Personal Files\Documents\Personal Docs\MS\THI\Sem 2 - Assignments\AR VR\Git\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 5.67 ms, found 15 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  9.655 seconds
-Domain Reload Profiling:
-	ReloadAssembly (9677ms)
-		BeginReloadAssembly (4655ms)
-			ExecutionOrderSort (1ms)
-			DisableScriptedObjects (236ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (2ms)
-			CreateAndSetChildDomain (2035ms)
-		EndReloadAssembly (4206ms)
-			LoadAssemblies (1276ms)
-			RebuildTransferFunctionScriptingTraits (4ms)
-			SetupTypeCache (1833ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (161ms)
-			SetupLoadedEditorAssemblies (1342ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (53ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (6ms)
-				BeforeProcessingInitializeOnLoad (254ms)
-				ProcessInitializeOnLoadAttributes (923ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 27.65 ms, found 15 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5365 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (26.8 KB). Loaded Objects now: 5889.
-Memory consumption went from 209.2 MB to 209.2 MB.
-Total: 6.895200 ms (FindLiveObjects: 0.498800 ms CreateObjectMapping: 0.447700 ms MarkObjects: 5.794800 ms  DeleteObjects: 0.152900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/LociAssets/Pizza.blend
+  artifactKey: Guid(e59cdcdb2be81484a854e7e657431d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Pizza.blend using Guid(e59cdcdb2be81484a854e7e657431d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13220291cfeee8f9175e950167a1ffa1') in 0.421982 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016776 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Files\Personal Files\Documents\Personal Docs\MS\THI\Sem 2 - Assignments\AR VR\Git\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\Files\Personal Files\Documents\Personal Docs\MS\THI\Sem 2 - Assignments\AR VR\Git\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.05 ms, found 15 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.382 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3383ms)
-		BeginReloadAssembly (371ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (2807ms)
-			LoadAssemblies (309ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (709ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (132ms)
-			SetupLoadedEditorAssemblies (1563ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (225ms)
-				ProcessInitializeOnLoadAttributes (1154ms)
-				ProcessInitializeOnLoadMethodAttributes (129ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 35.50 ms, found 15 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5365 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (26.7 KB). Loaded Objects now: 5895.
-Memory consumption went from 209.2 MB to 209.2 MB.
-Total: 12.938500 ms (FindLiveObjects: 1.209700 ms CreateObjectMapping: 0.895600 ms MarkObjects: 10.672900 ms  DeleteObjects: 0.157700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/LociAssets/Bullet.blend
+  artifactKey: Guid(790d76a906fc9b747ba94697ddc937b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Bullet.blend using Guid(790d76a906fc9b747ba94697ddc937b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c107e56cb144148e91f0ad0e1c8ef8') in 0.115873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LociAssets/Pirate.blend
+  artifactKey: Guid(6c3b910bc8884674482d37a55f08b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Pirate.blend using Guid(6c3b910bc8884674482d37a55f08b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29302cf76112948cd7ec883562e547f9') in 0.091850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LociAssets/Dwarf.blend
+  artifactKey: Guid(7136883c72eae7f43a38fde99da31414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Dwarf.blend using Guid(7136883c72eae7f43a38fde99da31414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1477a74f74d63e9991fdac80ad3e056f') in 0.276160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/LociAssets/Dart_Vader.blend
+  artifactKey: Guid(dbc3f98ab443ad64eaf346196bc2dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Dart_Vader.blend using Guid(dbc3f98ab443ad64eaf346196bc2dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3dc3b9a84259d8257219962f4928d6') in 0.086673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LociAssets/Boulder.blend
+  artifactKey: Guid(c880d36cd3b7c5b4aa9dad0b85f83063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Boulder.blend using Guid(c880d36cd3b7c5b4aa9dad0b85f83063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0b417ff8af24a4ba8e046d47d0d5c6') in 0.076659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LociAssets/Gloves.blend
+  artifactKey: Guid(2cf5b242811bc534e8b334c3c29cf281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Gloves.blend using Guid(2cf5b242811bc534e8b334c3c29cf281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa412a412a8c10f83245e0c13d5a040') in 0.161059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/LociAssets/Ruler.blend
+  artifactKey: Guid(0d7bb5c13522fd744b25a8ed79641f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Ruler.blend using Guid(0d7bb5c13522fd744b25a8ed79641f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640bf499ec50649b30b53581a732db9e') in 0.076973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LociAssets/Fist.blend
+  artifactKey: Guid(19d14134b96d98141a263b0f877f2c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Fist.blend using Guid(19d14134b96d98141a263b0f877f2c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793a5b4461f6172282784658c848d541') in 0.776871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/LociAssets/Astronaut.blend
+  artifactKey: Guid(9ce5b1e84c7f61645832697c36b8b8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Astronaut.blend using Guid(9ce5b1e84c7f61645832697c36b8b8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5c15f62dd68e6cef9716ea6b593354') in 0.122399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/LociAssets/Spongebob.blend
+  artifactKey: Guid(78f94869b72d85b4e974cecad1d83a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Spongebob.blend using Guid(78f94869b72d85b4e974cecad1d83a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6dba498ba25e22d5e26b45719eef8b') in 0.205729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/LociAssets/Pendulum.blend
+  artifactKey: Guid(7e2aec92e8d4a65459f1ffd62c8e2d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Pendulum.blend using Guid(7e2aec92e8d4a65459f1ffd62c8e2d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feb0121e63ea65e835032cb87a57509') in 0.209953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/LociAssets/Board.blend
+  artifactKey: Guid(cfcd542212d25d94bbe5f5686b82627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Board.blend using Guid(cfcd542212d25d94bbe5f5686b82627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d93f7447a81d3466e8d50b7addb46a0') in 0.225679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/LociAssets/Rocket.blend
+  artifactKey: Guid(3443e43bcd98dbd488e06a349bd9d102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Rocket.blend using Guid(3443e43bcd98dbd488e06a349bd9d102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd732e64ed21dd44fda26e781c3149a4') in 0.296090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/LociAssets/Apple_pie.blend
+  artifactKey: Guid(8be1add3dabbaa94698366e77663ff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Apple_pie.blend using Guid(8be1add3dabbaa94698366e77663ff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2158d788137d1e73a72cdd2096b23e03') in 0.232399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LociAssets/Two_Fingers.blend
+  artifactKey: Guid(cb11bc74e2d806e43827fb8796d46498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Two_Fingers.blend using Guid(cb11bc74e2d806e43827fb8796d46498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e0c077caf30b6579a06a3c44eaf02b') in 0.091195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/LociAssets/Ladder.blend
+  artifactKey: Guid(a025190479c475f46b62a3f0ac595399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Ladder.blend using Guid(a025190479c475f46b62a3f0ac595399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17c6764406d1faa9255c073ca409bd6') in 0.136723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/LociAssets/wall_plant.blend
+  artifactKey: Guid(6d29bc8718a107546bcc5407e9231e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/wall_plant.blend using Guid(6d29bc8718a107546bcc5407e9231e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f441122fefc90a53a841c7023d800b') in 0.523520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/LociAssets/Weighing_Scale.blend
+  artifactKey: Guid(2e95b164b6e312941aa006bdecd61a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LociAssets/Weighing_Scale.blend using Guid(2e95b164b6e312941aa006bdecd61a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0754742b2e2f4195a024a529bdba19e1') in 0.319102 seconds 

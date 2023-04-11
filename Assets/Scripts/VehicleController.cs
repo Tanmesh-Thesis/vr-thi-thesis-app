@@ -7,6 +7,7 @@ public class VehicleController : MonoBehaviour
     public GameObject Vehicle1;
     public GameObject Vehicle2;
     public GameObject Vehicle3;
+     public GameObject VehicleGT;
     public GameObject ScaleObject;
     public float speed = 10.0f;
 
@@ -15,6 +16,7 @@ public class VehicleController : MonoBehaviour
         Vehicle1.transform.position = new Vector3(110.0f, -0.5f, 11.5f);
         Vehicle2.transform.position = new Vector3(130.0f, 0.0f, 11.5f);
         Vehicle3.transform.position = new Vector3(-60.0f, 0.0f, 8.0f);
+        VehicleGT.transform.position = new Vector3(-60.0f, 0.0f, 8.0f);
     }
 
     void Update()
@@ -59,6 +61,26 @@ public class VehicleController : MonoBehaviour
         }
 
         //Vehicle 3
+        if (Vehicle3.transform.position.x <= 120.0f)
+        {
+            if (Vehicle3.transform.position.x < -13.0f && ScaleObject.transform.localScale.x >= 0.8f)
+            {
+                speed = 0.0f;
+                Vehicle3.transform.Translate(Vector3.right * speed * Time.deltaTime);
+
+            }
+            else
+            {
+                speed = 10.0f;
+                Vehicle3.transform.Translate(Vector3.right * speed * Time.deltaTime);
+            }
+        }
+        else
+        {
+            Vehicle3.transform.position = new Vector3(-60.0f, 0.0f, 8.0f);
+        }
+
+        //Vehicle GT
         if (Vehicle3.transform.position.x <= 120.0f)
         {
             if (Vehicle3.transform.position.x < -13.0f && ScaleObject.transform.localScale.x >= 0.8f)

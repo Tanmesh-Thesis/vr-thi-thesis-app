@@ -21,9 +21,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonVoice.PUN", "PhotonVo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Editor", "PhotonUnityNetworking.Editor.csproj", "{af52c7e1-a5e7-5c70-2c4b-647264a1ef28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonVoice.Editor", "PhotonVoice.Editor.csproj", "{0762d42e-1861-8092-519b-f2a6d648954b}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{ff103e6d-dc04-319f-88ab-8fff6cfc2d27}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor", "PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj", "{c853e901-76cc-eb71-4235-10031d33c878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonVoice.Editor", "PhotonVoice.Editor.csproj", "{0762d42e-1861-8092-519b-f2a6d648954b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonVoice.PUN.Editor", "PhotonVoice.PUN.Editor.csproj", "{1a500dc1-c8b1-1771-2736-49aff1374837}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PunDemos.DemoSlotcarEditor", "PunDemos.DemoSlotcarEditor.csproj", "{0e26e4d9-b2a7-7e93-f46b-1cc3c10d143e}"
 EndProject
@@ -32,10 +36,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PunDemos.DemoHubEditor", "PunDemos.DemoHubEditor.csproj", "{6aa883e2-f504-57ca-f8d0-6b34708b59f3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonVoice.Utilities.Editor", "PhotonVoice.Utilities.Editor.csproj", "{45355700-69af-09ca-5cad-8452eae8d341}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{ff103e6d-dc04-319f-88ab-8fff6cfc2d27}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonVoice.PUN.Editor", "PhotonVoice.PUN.Editor.csproj", "{1a500dc1-c8b1-1771-2736-49aff1374837}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,10 +62,14 @@ Global
 		{0884f5b9-abdf-6ad1-b6c0-1eb231b784a6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{af52c7e1-a5e7-5c70-2c4b-647264a1ef28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{af52c7e1-a5e7-5c70-2c4b-647264a1ef28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0762d42e-1861-8092-519b-f2a6d648954b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0762d42e-1861-8092-519b-f2a6d648954b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ff103e6d-dc04-319f-88ab-8fff6cfc2d27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ff103e6d-dc04-319f-88ab-8fff6cfc2d27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c853e901-76cc-eb71-4235-10031d33c878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c853e901-76cc-eb71-4235-10031d33c878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0762d42e-1861-8092-519b-f2a6d648954b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0762d42e-1861-8092-519b-f2a6d648954b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1a500dc1-c8b1-1771-2736-49aff1374837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1a500dc1-c8b1-1771-2736-49aff1374837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0e26e4d9-b2a7-7e93-f46b-1cc3c10d143e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0e26e4d9-b2a7-7e93-f46b-1cc3c10d143e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08bf7baa-4e9e-4b09-18f6-f9771db9f2fa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -74,10 +78,6 @@ Global
 		{6aa883e2-f504-57ca-f8d0-6b34708b59f3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45355700-69af-09ca-5cad-8452eae8d341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{45355700-69af-09ca-5cad-8452eae8d341}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ff103e6d-dc04-319f-88ab-8fff6cfc2d27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ff103e6d-dc04-319f-88ab-8fff6cfc2d27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1a500dc1-c8b1-1771-2736-49aff1374837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1a500dc1-c8b1-1771-2736-49aff1374837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

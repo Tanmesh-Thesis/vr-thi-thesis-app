@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class trySceneChanger : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class trySceneChanger : MonoBehaviour
     public GameObject nextScene;
     public GameObject currentScene;
     public GameObject loadRequiredAsset;
+    public GameObject disableRequiredAsset;
     public Button disableLoadedButton;
 
     void Start()
@@ -43,9 +45,17 @@ public class trySceneChanger : MonoBehaviour
         tryUIcanvasManager.selectedAssets.Add(loadRequiredAsset);
     }
 
+    public void disableRequestedAsset() {
+        disableRequiredAsset.SetActive(false);
+    }
+
     public void disableButton() {
         Debug.Log("disabling button" + disableLoadedButton.ToString());
         disableLoadedButton.interactable = false;
+    }
+
+    public void LoadScene(string SceneName){
+        SceneManager.LoadScene(SceneName);
     }
     
 }

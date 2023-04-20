@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4608958, g: 0.59914464, b: 0.7163813, a: 1}
+  m_IndirectSpecularColor: {r: 0.46091858, g: 0.5992374, b: 0.7167184, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -330,6 +330,82 @@ MonoBehaviour:
     m_roleTypeFullName: HTC.UnityPlugin.Vive.TrackerRole
     m_roleValueName: Tracker1
     m_roleValueInt: 1
+--- !u!1 &25394008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 25394009}
+  - component: {fileID: 25394011}
+  - component: {fileID: 25394010}
+  m_Layer: 5
+  m_Name: screen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &25394009
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25394008}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.0302, z: 1.01}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 719919243}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &25394010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25394008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &25394011
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25394008}
+  m_CullTransparentMesh: 1
 --- !u!1 &40516283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,6 +1548,7 @@ GameObject:
   - component: {fileID: 169108699}
   - component: {fileID: 169108698}
   - component: {fileID: 169108697}
+  - component: {fileID: 169108701}
   m_Layer: 5
   m_Name: LivingRoomMoveandPointRightCanvas
   m_TagString: Untagged
@@ -1564,6 +1641,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.4137893, y: 0.061433077}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &169108701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169108696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &178107416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,6 +2044,7 @@ GameObject:
   - component: {fileID: 224274453}
   - component: {fileID: 224274452}
   - component: {fileID: 224274451}
+  - component: {fileID: 224274455}
   m_Layer: 5
   m_Name: LivingRoomMovePointCanvas
   m_TagString: Untagged
@@ -2045,6 +2136,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.4137893, y: 0.061433077}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &224274455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224274450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &235747116
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,6 +2638,7 @@ GameObject:
   - component: {fileID: 268167741}
   - component: {fileID: 268167740}
   - component: {fileID: 268167739}
+  - component: {fileID: 268167742}
   m_Layer: 5
   m_Name: LivingRoomGOMSCompleteCanvas
   m_TagString: Untagged
@@ -2629,6 +2734,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &268167742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268167737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &271162595
 GameObject:
   m_ObjectHideFlags: 0
@@ -3204,6 +3322,7 @@ GameObject:
   - component: {fileID: 292495070}
   - component: {fileID: 292495069}
   - component: {fileID: 292495068}
+  - component: {fileID: 292495072}
   m_Layer: 5
   m_Name: LivingRoomKOperatorCanvas
   m_TagString: Untagged
@@ -3298,6 +3417,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.4137893, y: 0.061433077}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &292495072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292495067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &300057355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3310,6 +3442,7 @@ GameObject:
   - component: {fileID: 300057358}
   - component: {fileID: 300057357}
   - component: {fileID: 300057356}
+  - component: {fileID: 300057360}
   m_Layer: 5
   m_Name: LivingRoomPerciveInfoRightCanvas
   m_TagString: Untagged
@@ -3402,6 +3535,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.4137893, y: 0.061433077}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &300057360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300057355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &311321922
 GameObject:
   m_ObjectHideFlags: 0
@@ -3977,6 +4123,7 @@ GameObject:
   - component: {fileID: 358184362}
   - component: {fileID: 358184361}
   - component: {fileID: 358184360}
+  - component: {fileID: 358184364}
   m_Layer: 5
   m_Name: LivingRoomWelcomeCanvas
   m_TagString: Untagged
@@ -4069,6 +4216,19 @@ RectTransform:
   m_AnchoredPosition: {x: 2.877, y: 1.2314}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &358184364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358184359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &362571383
 GameObject:
   m_ObjectHideFlags: 0
@@ -5118,6 +5278,7 @@ GameObject:
   - component: {fileID: 416402797}
   - component: {fileID: 416402796}
   - component: {fileID: 416402795}
+  - component: {fileID: 416402798}
   m_Layer: 5
   m_Name: LivingRoomSearch21NCanvas
   m_TagString: Untagged
@@ -5210,6 +5371,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &416402798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416402793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &428338060
 GameObject:
   m_ObjectHideFlags: 0
@@ -5435,6 +5609,7 @@ GameObject:
   - component: {fileID: 444886985}
   - component: {fileID: 444886984}
   - component: {fileID: 444886983}
+  - component: {fileID: 444886987}
   m_Layer: 5
   m_Name: LivingRoomTVGwelcomeCanvas
   m_TagString: Untagged
@@ -5524,6 +5699,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0.22623396, y: 0.34992534}
   m_SizeDelta: {x: 1744.8201, y: 922.5207}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &444886987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444886982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &474605143
 GameObject:
   m_ObjectHideFlags: 0
@@ -5805,6 +5993,7 @@ GameObject:
   - component: {fileID: 488084958}
   - component: {fileID: 488084957}
   - component: {fileID: 488084956}
+  - component: {fileID: 488084959}
   m_Layer: 5
   m_Name: LivingRoomTV21previewCanvas
   m_TagString: Untagged
@@ -5895,6 +6084,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &488084959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488084954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &512807897
 GameObject:
   m_ObjectHideFlags: 0
@@ -6928,6 +7130,7 @@ GameObject:
   - component: {fileID: 569224725}
   - component: {fileID: 569224724}
   - component: {fileID: 569224723}
+  - component: {fileID: 569224726}
   m_Layer: 5
   m_Name: LivingRoomMonitor21Canvas
   m_TagString: Untagged
@@ -7021,6 +7224,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &569224726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569224721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &572854949
 GameObject:
   m_ObjectHideFlags: 0
@@ -7701,6 +7917,7 @@ GameObject:
   - component: {fileID: 629319592}
   - component: {fileID: 629319591}
   - component: {fileID: 629319590}
+  - component: {fileID: 629319593}
   m_Layer: 5
   m_Name: LivingRoomPlay21Canvas
   m_TagString: Untagged
@@ -7793,6 +8010,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &629319593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629319588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &648651081
 GameObject:
   m_ObjectHideFlags: 0
@@ -7805,6 +8035,7 @@ GameObject:
   - component: {fileID: 648651085}
   - component: {fileID: 648651084}
   - component: {fileID: 648651083}
+  - component: {fileID: 648651086}
   m_Layer: 5
   m_Name: LivingRoomTVfindNCanvas
   m_TagString: Untagged
@@ -7895,6 +8126,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &648651086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648651081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &650027769
 GameObject:
   m_ObjectHideFlags: 0
@@ -8952,6 +9196,107 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708409890}
   m_CullTransparentMesh: 1
+--- !u!1 &719919242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 719919243}
+  - component: {fileID: 719919246}
+  - component: {fileID: 719919245}
+  - component: {fileID: 719919244}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &719919243
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719919242}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -0.6539999}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 25394009}
+  m_Father: {fileID: 1029732734}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.24399996, y: 0.31180006}
+  m_SizeDelta: {x: 1874.1145, y: 1156.3191}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &719919244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719919242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &719919245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719919242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &719919246
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719919242}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &726285709
 GameObject:
   m_ObjectHideFlags: 0
@@ -8964,6 +9309,7 @@ GameObject:
   - component: {fileID: 726285713}
   - component: {fileID: 726285712}
   - component: {fileID: 726285711}
+  - component: {fileID: 726285714}
   m_Layer: 5
   m_Name: LivingRoomFindNwallCanvas
   m_TagString: Untagged
@@ -9056,6 +9402,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &726285714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726285709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &734180768
 GameObject:
   m_ObjectHideFlags: 0
@@ -12660,6 +13019,7 @@ GameObject:
   - component: {fileID: 1027590483}
   - component: {fileID: 1027590482}
   - component: {fileID: 1027590481}
+  - component: {fileID: 1027590484}
   m_Layer: 5
   m_Name: LivingRoomGOMSCompleteCalculationCanvas
   m_TagString: Untagged
@@ -12753,6 +13113,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1027590484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027590479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1029732733
 GameObject:
   m_ObjectHideFlags: 0
@@ -12788,6 +13161,7 @@ Transform:
   - {fileID: 569224722}
   - {fileID: 268167738}
   - {fileID: 1027590480}
+  - {fileID: 719919243}
   m_Father: {fileID: 1357656710}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13224,6 +13598,7 @@ GameObject:
   - component: {fileID: 1060274002}
   - component: {fileID: 1060274001}
   - component: {fileID: 1060274000}
+  - component: {fileID: 1060274004}
   m_Layer: 5
   m_Name: LivingRoomTVNetflixIconCanvas
   m_TagString: Untagged
@@ -13313,6 +13688,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.4137893, y: 0.142}
   m_SizeDelta: {x: 1799.2349, y: 1025.7554}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1060274004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060273999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1064087148
 GameObject:
   m_ObjectHideFlags: 0
@@ -13432,7 +13820,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065568500}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.441, y: 0.84, z: -0.872}
+  m_LocalPosition: {x: -0.113, y: -0.284, z: -0.872}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14147,6 +14535,7 @@ GameObject:
   - component: {fileID: 1117848525}
   - component: {fileID: 1117848524}
   - component: {fileID: 1117848523}
+  - component: {fileID: 1117848527}
   m_Layer: 5
   m_Name: LivingRoomPerciveInfoCanvas
   m_TagString: Untagged
@@ -14240,6 +14629,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.4137893, y: 0.061433077}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1117848527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117848522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1119015455
 GameObject:
   m_ObjectHideFlags: 0
@@ -14252,6 +14654,7 @@ GameObject:
   - component: {fileID: 1119015458}
   - component: {fileID: 1119015457}
   - component: {fileID: 1119015456}
+  - component: {fileID: 1119015460}
   m_Layer: 5
   m_Name: LivingRoomOperatorCanvas
   m_TagString: Untagged
@@ -14344,6 +14747,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.4137893, y: 0.061433077}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1119015460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119015455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1124521494
 GameObject:
   m_ObjectHideFlags: 0
@@ -16186,6 +16602,7 @@ GameObject:
   - component: {fileID: 1326048248}
   - component: {fileID: 1326048247}
   - component: {fileID: 1326048246}
+  - component: {fileID: 1326048249}
   m_Layer: 5
   m_Name: LivingRoomTVSearchkeyboardTvCanvas
   m_TagString: Untagged
@@ -16277,6 +16694,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1326048249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326048244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1328137560
 GameObject:
   m_ObjectHideFlags: 0
@@ -16967,6 +17397,7 @@ GameObject:
   - component: {fileID: 1359426670}
   - component: {fileID: 1359426669}
   - component: {fileID: 1359426668}
+  - component: {fileID: 1359426671}
   m_Layer: 5
   m_Name: LivingRoomTVSearch2Canvas
   m_TagString: Untagged
@@ -17061,6 +17492,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1359426671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359426666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1369297591
 GameObject:
   m_ObjectHideFlags: 0
@@ -17401,6 +17845,7 @@ GameObject:
   - component: {fileID: 1400935052}
   - component: {fileID: 1400935051}
   - component: {fileID: 1400935050}
+  - component: {fileID: 1400935053}
   m_Layer: 5
   m_Name: LivingRoomTVSearchPlay21Canvas
   m_TagString: Untagged
@@ -17495,6 +17940,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1400935053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400935048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1402062202
 GameObject:
   m_ObjectHideFlags: 0
@@ -17583,6 +18041,7 @@ GameObject:
   - component: {fileID: 1402274915}
   - component: {fileID: 1402274914}
   - component: {fileID: 1402274913}
+  - component: {fileID: 1402274916}
   m_Layer: 5
   m_Name: LivingRoomGOMS21SearchedCanvas
   m_TagString: Untagged
@@ -17678,6 +18137,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1402274916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402274911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1413431287
 GameObject:
   m_ObjectHideFlags: 0
@@ -18384,6 +18856,7 @@ GameObject:
   - component: {fileID: 1458057542}
   - component: {fileID: 1458057541}
   - component: {fileID: 1458057540}
+  - component: {fileID: 1458057544}
   m_Layer: 5
   m_Name: LivingRoomGOMSTVONCanvas
   m_TagString: Untagged
@@ -18477,6 +18950,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0.26323414, y: 0.2543583}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1458057544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458057539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1475534650
 GameObject:
   m_ObjectHideFlags: 0
@@ -19574,6 +20060,7 @@ GameObject:
   - component: {fileID: 1550688502}
   - component: {fileID: 1550688501}
   - component: {fileID: 1550688500}
+  - component: {fileID: 1550688504}
   m_Layer: 5
   m_Name: LivingRoomWatchTVCanvas
   m_TagString: Untagged
@@ -19666,6 +20153,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0.26323414, y: 0.2543583}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1550688504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550688499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1557386410
 GameObject:
   m_ObjectHideFlags: 0
@@ -19950,6 +20450,7 @@ GameObject:
   - component: {fileID: 1564116136}
   - component: {fileID: 1564116135}
   - component: {fileID: 1564116134}
+  - component: {fileID: 1564116137}
   m_Layer: 5
   m_Name: 'LivingRoomTVSearchTvWSCanvas '
   m_TagString: Untagged
@@ -20040,6 +20541,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1564116137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564116132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1586052706
 GameObject:
   m_ObjectHideFlags: 0
@@ -20321,6 +20835,7 @@ GameObject:
   - component: {fileID: 1623536690}
   - component: {fileID: 1623536689}
   - component: {fileID: 1623536688}
+  - component: {fileID: 1623536691}
   m_Layer: 5
   m_Name: LivingRoomTVSearch21Canvas
   m_TagString: Untagged
@@ -20414,6 +20929,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1623536691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623536686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1630274254
 GameObject:
   m_ObjectHideFlags: 0
@@ -20535,6 +21063,7 @@ GameObject:
   - component: {fileID: 1642687141}
   - component: {fileID: 1642687140}
   - component: {fileID: 1642687139}
+  - component: {fileID: 1642687142}
   m_Layer: 5
   m_Name: LivingRoomGOMSNetflixONCanvas
   m_TagString: Untagged
@@ -20630,6 +21159,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1642687142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642687137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1643778424
 GameObject:
   m_ObjectHideFlags: 0
@@ -21079,6 +21621,7 @@ GameObject:
   - component: {fileID: 1684580073}
   - component: {fileID: 1684580072}
   - component: {fileID: 1684580071}
+  - component: {fileID: 1684580074}
   m_Layer: 5
   m_Name: LivingRoomSearchonNlCanvas
   m_TagString: Untagged
@@ -21171,6 +21714,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1684580074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684580069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1709850670
 GameObject:
   m_ObjectHideFlags: 0
@@ -22188,6 +22744,7 @@ GameObject:
   - component: {fileID: 1831778238}
   - component: {fileID: 1831778237}
   - component: {fileID: 1831778236}
+  - component: {fileID: 1831778239}
   m_Layer: 5
   m_Name: LivingRoomTVSearchTvCanvas
   m_TagString: Untagged
@@ -22279,6 +22836,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1831778239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831778234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1834042679
 GameObject:
   m_ObjectHideFlags: 0
@@ -23624,6 +24194,7 @@ GameObject:
   - component: {fileID: 1962490188}
   - component: {fileID: 1962490187}
   - component: {fileID: 1962490186}
+  - component: {fileID: 1962490190}
   m_Layer: 5
   m_Name: LivingRoomTVGpointandmoveCanvas
   m_TagString: Untagged
@@ -23713,6 +24284,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.4137893, y: 0.218}
   m_SizeDelta: {x: 1351.6938, y: 776.9742}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1962490190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962490185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1964227281
 GameObject:
   m_ObjectHideFlags: 0
@@ -24779,6 +25363,7 @@ GameObject:
   - component: {fileID: 2039014890}
   - component: {fileID: 2039014889}
   - component: {fileID: 2039014888}
+  - component: {fileID: 2039014892}
   m_Layer: 5
   m_Name: LivingRoomGOMS21PlayedCanvas
   m_TagString: Untagged
@@ -24874,6 +25459,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0.26323414, y: 0.2543583}
   m_SizeDelta: {x: 1370.9517, y: 1886.9143}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2039014892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039014887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &2042879225
 GameObject:
   m_ObjectHideFlags: 0
@@ -25588,7 +26186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2760340408113310750, guid: 5638d44ff9bb84e27a5d89d6d74a26c6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.516
+      value: 0.877
       objectReference: {fileID: 0}
     - target: {fileID: 2760340408113310750, guid: 5638d44ff9bb84e27a5d89d6d74a26c6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25596,7 +26194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2760340408113310750, guid: 5638d44ff9bb84e27a5d89d6d74a26c6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.658
+      value: -0.604
       objectReference: {fileID: 0}
     - target: {fileID: 2760340408113310750, guid: 5638d44ff9bb84e27a5d89d6d74a26c6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25712,7 +26310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4835967583018746029, guid: 5638d44ff9bb84e27a5d89d6d74a26c6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5299623428631726813, guid: 5638d44ff9bb84e27a5d89d6d74a26c6, type: 3}
       propertyPath: m_Name
@@ -25747,6 +26345,24 @@ MonoBehaviour:
   loadRequiredAsset: {fileID: 1458057539}
   disableRequiredAsset: {fileID: 1550688499}
   disableLoadedButton: {fileID: 0}
+--- !u!1 &2064310987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4415124766573872204, guid: 5638d44ff9bb84e27a5d89d6d74a26c6, type: 3}
+  m_PrefabInstance: {fileID: 2064310983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2064310988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064310987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &2072467386
 GameObject:
   m_ObjectHideFlags: 0

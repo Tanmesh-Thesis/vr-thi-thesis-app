@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4608958, g: 0.59914464, b: 0.7163813, a: 1}
+  m_IndirectSpecularColor: {r: 0.46091858, g: 0.5992374, b: 0.7167184, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1258,6 +1258,7 @@ MonoBehaviour:
   nextScene: {fileID: 1153194126}
   currentScene: {fileID: 1530645353}
   loadRequiredAsset: {fileID: 0}
+  disableRequiredAsset: {fileID: 0}
   disableLoadedButton: {fileID: 0}
 --- !u!1 &131310010
 GameObject:
@@ -1271,6 +1272,7 @@ GameObject:
   - component: {fileID: 131310013}
   - component: {fileID: 131310012}
   - component: {fileID: 131310011}
+  - component: {fileID: 131310015}
   m_Layer: 5
   m_Name: LearnFittsConceptsCanvas
   m_TagString: Untagged
@@ -1364,6 +1366,19 @@ RectTransform:
   m_AnchoredPosition: {x: 3.04, y: 3.0862}
   m_SizeDelta: {x: 6837.713, y: 4247.8525}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &131310015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131310010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &166680311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,6 +2400,7 @@ GameObject:
   - component: {fileID: 443904917}
   - component: {fileID: 443904916}
   - component: {fileID: 443904915}
+  - component: {fileID: 443904919}
   m_Layer: 5
   m_Name: AskFittsQuizCanvas
   m_TagString: Untagged
@@ -2478,6 +2494,19 @@ RectTransform:
   m_AnchoredPosition: {x: 3.04, y: 3.0862}
   m_SizeDelta: {x: 6837.713, y: 4247.8525}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &443904919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443904914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1001 &456476530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3195,6 +3224,7 @@ MonoBehaviour:
   nextScene: {fileID: 131310010}
   currentScene: {fileID: 1396507574}
   loadRequiredAsset: {fileID: 0}
+  disableRequiredAsset: {fileID: 0}
   disableLoadedButton: {fileID: 0}
 --- !u!1 &549171232
 GameObject:
@@ -3688,6 +3718,7 @@ MonoBehaviour:
   nextScene: {fileID: 1021525106}
   currentScene: {fileID: 443904914}
   loadRequiredAsset: {fileID: 0}
+  disableRequiredAsset: {fileID: 0}
   disableLoadedButton: {fileID: 0}
 --- !u!1 &644112290
 GameObject:
@@ -4171,6 +4202,7 @@ GameObject:
   - component: {fileID: 837041294}
   - component: {fileID: 837041293}
   - component: {fileID: 837041292}
+  - component: {fileID: 837041296}
   m_Layer: 5
   m_Name: AskFittsSimulCanvas
   m_TagString: Untagged
@@ -4264,6 +4296,19 @@ RectTransform:
   m_AnchoredPosition: {x: 3.04, y: 3.0862}
   m_SizeDelta: {x: 6837.713, y: 4247.8525}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &837041296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837041291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &838187914
 GameObject:
   m_ObjectHideFlags: 0
@@ -4583,6 +4628,7 @@ MonoBehaviour:
   nextScene: {fileID: 443904914}
   currentScene: {fileID: 837041291}
   loadRequiredAsset: {fileID: 0}
+  disableRequiredAsset: {fileID: 0}
   disableLoadedButton: {fileID: 0}
 --- !u!1 &896011165
 GameObject:
@@ -5191,6 +5237,7 @@ GameObject:
   - component: {fileID: 1021525109}
   - component: {fileID: 1021525108}
   - component: {fileID: 1021525107}
+  - component: {fileID: 1021525111}
   m_Layer: 5
   m_Name: LearnFittsQuizCanvas
   m_TagString: Untagged
@@ -5284,6 +5331,19 @@ RectTransform:
   m_AnchoredPosition: {x: 3.04, y: 3.0862}
   m_SizeDelta: {x: 6837.713, y: 4247.8525}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1021525111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021525106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1022131230
 GameObject:
   m_ObjectHideFlags: 0
@@ -5569,6 +5629,7 @@ MonoBehaviour:
   nextScene: {fileID: 0}
   currentScene: {fileID: 0}
   loadRequiredAsset: {fileID: 0}
+  disableRequiredAsset: {fileID: 0}
   disableLoadedButton: {fileID: 0}
 --- !u!1 &1049127792
 GameObject:
@@ -5708,7 +5769,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1065568503}
   - component: {fileID: 1065568502}
-  - component: {fileID: 1065568501}
   m_Layer: 0
   m_Name: VROrigin
   m_TagString: Untagged
@@ -5716,19 +5776,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1065568501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065568500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cfc4e1d91130214a9ef57fd17f9bbc2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  XRRigPosition: {fileID: 1065568503}
 --- !u!114 &1065568502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6347,6 +6394,7 @@ GameObject:
   - component: {fileID: 1153194129}
   - component: {fileID: 1153194128}
   - component: {fileID: 1153194127}
+  - component: {fileID: 1153194131}
   m_Layer: 5
   m_Name: LearnFittsPredicitiveCanvas
   m_TagString: Untagged
@@ -6440,6 +6488,19 @@ RectTransform:
   m_AnchoredPosition: {x: 3.04, y: 3.0862}
   m_SizeDelta: {x: 6837.713, y: 4247.8525}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1153194131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153194126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1169645722
 GameObject:
   m_ObjectHideFlags: 0
@@ -7360,6 +7421,7 @@ MonoBehaviour:
   nextScene: {fileID: 837041291}
   currentScene: {fileID: 1396507574}
   loadRequiredAsset: {fileID: 0}
+  disableRequiredAsset: {fileID: 0}
   disableLoadedButton: {fileID: 0}
 --- !u!1 &1396507574
 GameObject:
@@ -7373,6 +7435,7 @@ GameObject:
   - component: {fileID: 1396507577}
   - component: {fileID: 1396507576}
   - component: {fileID: 1396507575}
+  - component: {fileID: 1396507579}
   m_Layer: 5
   m_Name: AskFittsConceptsCanvas
   m_TagString: Untagged
@@ -7466,6 +7529,19 @@ RectTransform:
   m_AnchoredPosition: {x: 3.04, y: 3.0862}
   m_SizeDelta: {x: 6837.713, y: 4247.8525}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1396507579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396507574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1411091913
 GameObject:
   m_ObjectHideFlags: 0
@@ -8170,6 +8246,7 @@ GameObject:
   - component: {fileID: 1530645356}
   - component: {fileID: 1530645355}
   - component: {fileID: 1530645354}
+  - component: {fileID: 1530645358}
   m_Layer: 5
   m_Name: AskFittsPredicitiveCanvas
   m_TagString: Untagged
@@ -8263,6 +8340,19 @@ RectTransform:
   m_AnchoredPosition: {x: 3.04, y: 3.0862}
   m_SizeDelta: {x: 6837.713, y: 4247.8525}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1530645358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530645353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1543120779
 GameObject:
   m_ObjectHideFlags: 0
@@ -9369,6 +9459,7 @@ MonoBehaviour:
   nextScene: {fileID: 1396507574}
   currentScene: {fileID: 1530645353}
   loadRequiredAsset: {fileID: 0}
+  disableRequiredAsset: {fileID: 0}
   disableLoadedButton: {fileID: 0}
 --- !u!1 &1775163651
 GameObject:
@@ -10662,6 +10753,7 @@ MonoBehaviour:
   nextScene: {fileID: 0}
   currentScene: {fileID: 0}
   loadRequiredAsset: {fileID: 0}
+  disableRequiredAsset: {fileID: 0}
   disableLoadedButton: {fileID: 0}
 --- !u!1 &2110770982
 GameObject:

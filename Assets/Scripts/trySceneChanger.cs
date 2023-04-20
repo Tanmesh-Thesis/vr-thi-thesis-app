@@ -41,8 +41,10 @@ public class trySceneChanger : MonoBehaviour
     }
 
     public void loadRequestedAsset() {
-        loadRequiredAsset.SetActive(true);
-        tryUIcanvasManager.selectedAssets.Add(loadRequiredAsset);
+        if(loadRequiredAsset) {
+            loadRequiredAsset.SetActive(true);
+            tryUIcanvasManager.selectedAssets.Add(loadRequiredAsset);
+        }
     }
 
     public void disableRequestedAsset() {

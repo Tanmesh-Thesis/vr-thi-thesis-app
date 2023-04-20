@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4608958, g: 0.59914464, b: 0.7163813, a: 1}
+  m_IndirectSpecularColor: {r: 0.46091858, g: 0.5992374, b: 0.7167184, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -850,6 +850,7 @@ MonoBehaviour:
   nextScene: {fileID: 0}
   currentScene: {fileID: 0}
   loadRequiredAsset: {fileID: 0}
+  disableRequiredAsset: {fileID: 0}
   disableLoadedButton: {fileID: 0}
 --- !u!1 &190367707
 GameObject:
@@ -2309,7 +2310,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1065568503}
   - component: {fileID: 1065568502}
-  - component: {fileID: 1065568501}
   m_Layer: 0
   m_Name: VROrigin
   m_TagString: Untagged
@@ -2317,19 +2317,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1065568501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065568500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cfc4e1d91130214a9ef57fd17f9bbc2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  XRRigPosition: {fileID: 1065568503}
 --- !u!114 &1065568502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2773,6 +2760,7 @@ GameObject:
   - component: {fileID: 1530645356}
   - component: {fileID: 1530645355}
   - component: {fileID: 1530645354}
+  - component: {fileID: 1530645358}
   m_Layer: 5
   m_Name: SelectEquationCanvas
   m_TagString: Untagged
@@ -2866,6 +2854,19 @@ RectTransform:
   m_AnchoredPosition: {x: 3.04, y: 3.0862}
   m_SizeDelta: {x: 6837.713, y: 4247.8525}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1530645358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530645353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
 --- !u!1 &1543120779
 GameObject:
   m_ObjectHideFlags: 0

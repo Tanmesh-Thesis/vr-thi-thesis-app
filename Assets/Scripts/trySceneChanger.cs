@@ -30,20 +30,12 @@ public class trySceneChanger : MonoBehaviour
         }
         if(currentScene) {
         currentScene.SetActive(false);
-        if(currentScene.ToString().Split(" ")[0] == "InstructionCanvas") {
-            tryUIcanvasManager.numberOfSymbolClickedInForceEquation += 1;
-        }
-            if (currentScene.ToString().Split(" ")[0] == "InstructionGravityCanvas")
-            {
-                tryUIcanvasManager.numberOfSymbolClickedInGravityEquation += 1;
-            }
         }
     }
 
     public void loadRequestedAsset() {
         if(loadRequiredAsset) {
             loadRequiredAsset.SetActive(true);
-            tryUIcanvasManager.selectedAssets.Add(loadRequiredAsset);
         }
     }
 
@@ -52,12 +44,20 @@ public class trySceneChanger : MonoBehaviour
     }
 
     public void disableButton() {
-        Debug.Log("disabling button" + disableLoadedButton.ToString());
+        //Debug.Log("disabling button" + disableLoadedButton.ToString());
         disableLoadedButton.interactable = false;
     }
 
     public void LoadScene(string SceneName){
         SceneManager.LoadScene(SceneName);
+    }
+
+    public void controlsClickedFromScreen() {
+        CarManager.controlsClicked ++;
+    }
+
+    public void retryContols() {
+        CarManager.controlsClicked = 0;
     }
     
 }

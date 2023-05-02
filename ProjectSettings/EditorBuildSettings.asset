@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Levels/MyScenes/ATM/ATM-GOMS-betterScene.unity
     guid: fa7e6721eacac8f4eb6f4ec129c3ae39
   - enabled: 1
-    path: Assets/Levels/MyScenes/Classroom/FittsStudyPredictiveScene.unity
+    path: Assets/Levels/MyScenes/Classroom/Fitts/FittsStudyScene.unity
     guid: 593da5a0ae2c14772a09f5225e1eb6a2
   - enabled: 1
     path: Assets/Levels/MyScenes/Car Simulation/NewCarInfo.unity
@@ -29,6 +29,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/MyScenes/Car Simulation/NewCarStartDiffInfo.unity
     guid: 2178186d5096440f6b0f610e88cc1da9
+  - enabled: 1
+    path: Assets/Levels/MyScenes/Classroom/GOMS/GOMSStudyScene.unity
+    guid: f7373701df97447c886ce3cb37e5861d
+  - enabled: 1
+    path: Assets/Levels/MyScenes/Classroom/GOMS/GOMSStudyScenePart2.unity
+    guid: fe437fd8ad5a1409c8939a6674aab1ea
+  - enabled: 1
+    path: Assets/Levels/MyScenes/Classroom/NewClassroomScene.unity
+    guid: f2db2b4fa663346109234198d2eed843
+  - enabled: 1
+    path: Assets/Levels/MyScenes/ATM/ATM-GOMS-Scene.unity
+    guid: 8afd9cf57a4e54459a08d387911be5ac
+  - enabled: 1
+    path: Assets/Levels/MyScenes/Living Room/LivingRoomTry.unity
+    guid: 3555d2b935c6a427f924cd71c4c80bc0
+  - enabled: 1
+    path: Assets/Levels/MyScenes/Classroom/Fitts/FittsStudied.unity
+    guid: f0ae5c5caa2744bc9a2d1df7d67bacb9
+  - enabled: 1
+    path: Assets/Levels/MyScenes/Classroom/GOMS/GOMSStudied.unity
+    guid: 555c7509e375142778d62d7208766e62
   m_configObjects:
     com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: 0cbdab12b4b62f5428b9fb90f1ce4447, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: acb6c5669d5202e4eac7cc41936a2395, type: 2}

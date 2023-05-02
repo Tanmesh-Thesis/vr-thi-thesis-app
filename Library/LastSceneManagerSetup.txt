@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Levels/MyScenes/Classroom/FittsStudyPredictiveScene.unity
+- path: Assets/Levels/MyScenes/Classroom/GOMS/GOMSStudied.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

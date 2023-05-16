@@ -423,6 +423,7 @@
 "Assets/Levels/MyScripts/CarManager.cs"
 "Assets/Levels/MyScripts/CarMove.cs"
 "Assets/Levels/MyScripts/CarTimer.cs"
+"Assets/Levels/MyScripts/checkOperators.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
 "Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"

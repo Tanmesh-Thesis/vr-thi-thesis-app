@@ -18,16 +18,16 @@ EditorBuildSettings:
     path: Assets/Levels/MyScenes/Car Simulation/NewCarInfo.unity
     guid: a3ba417f0a70d4a2496de86d0639a58f
   - enabled: 1
-    path: Assets/Levels/MyScenes/Car Simulation/NewCarStart.unity
+    path: Assets/Levels/MyScenes/Car Simulation/01NewCarStart.unity
     guid: b995ca13de241406ba3799b0fff225d6
   - enabled: 1
-    path: Assets/Levels/MyScenes/Car Simulation/NewCarStartDiff.unity
+    path: Assets/Levels/MyScenes/Car Simulation/02NewCarStartDiff.unity
     guid: 3a9367b1b4dca439b8d009e5671975a6
   - enabled: 1
-    path: Assets/Levels/MyScenes/Car Simulation/NewCarStartInfo.unity
+    path: Assets/Levels/MyScenes/Car Simulation/01NewCarStartInfo.unity
     guid: b9fd4ff9bfa354e05a1bbcde83226b2a
   - enabled: 1
-    path: Assets/Levels/MyScenes/Car Simulation/NewCarStartDiffInfo.unity
+    path: Assets/Levels/MyScenes/Car Simulation/02NewCarStartDiffInfo.unity
     guid: 2178186d5096440f6b0f610e88cc1da9
   - enabled: 1
     path: Assets/Levels/MyScenes/Classroom/GOMS/GOMSStudyScene.unity
@@ -50,6 +50,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/MyScenes/Classroom/GOMS/GOMSStudied.unity
     guid: 555c7509e375142778d62d7208766e62
+  - enabled: 1
+    path: Assets/Levels/MyScenes/Car Simulation/03NewCarStartInfo.unity
+    guid: f665e25e652e842628fe78c9265a19ce
+  - enabled: 1
+    path: Assets/Levels/MyScenes/Car Simulation/03NewCarStartDiff.unity
+    guid: 924bfbbe8eb0648e99810e4bec1bdf71
+  - enabled: 1
+    path: Assets/Levels/MyScenes/Car Simulation/FinalCarCanvas.unity
+    guid: 17af4ecb738fb429b818c87d54d250b2
   m_configObjects:
     com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: 0cbdab12b4b62f5428b9fb90f1ce4447, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: acb6c5669d5202e4eac7cc41936a2395, type: 2}

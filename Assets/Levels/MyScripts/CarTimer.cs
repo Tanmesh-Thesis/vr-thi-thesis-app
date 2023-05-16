@@ -27,7 +27,7 @@ public class CarTimer : MonoBehaviour
             if (currentTime <= 0)
             {
                 currentTime = 0;
-                CarManager.userFailed = true;
+                //CarManager.userFailed = true;
                 runTimer = false;
             }
         }

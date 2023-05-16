@@ -313,6 +313,7 @@
      <Compile Include="Assets/UniGLTF/Core/Scripts/UniGLTFVersion_partial.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
      <Compile Include="Assets/UniGLTF/UniJSON/Scripts/JsonSchemaValidator/JsonArrayValidator.cs" />
+     <Compile Include="Assets/Levels/MyScripts/TimeTracker.cs" />
      <None Include="Assets/Avatare/UnityChan/Models/UnityChanShader/Shader/Unitychan_chara_fuku.shader" />
      <None Include="Assets/Avatare/AudioBoy/Licence.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

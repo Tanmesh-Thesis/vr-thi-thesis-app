@@ -259,6 +259,7 @@
      <Compile Include="Assets/UniGLTF/UniJSON/Scripts/StringSegment.cs" />
      <Compile Include="Assets/UniGLTF/UniHumanoid/PoseModifier/HandPose.cs" />
      <Compile Include="Assets/UniGLTF/UniJSON/Scripts/Extensions/ArraySegmentExtensions.cs" />
+     <Compile Include="Assets/Levels/MyScripts/TimeTracker.cs" />
      <Compile Include="Assets/Scripts/NetworkManager.cs" />
      <Compile Include="Assets/UniGLTF/DepthFirstScheduler/Functor.cs" />
      <Compile Include="Assets/UniGLTF/Core/Scripts/Format/glTFAssets.cs" />
@@ -313,7 +314,6 @@
      <Compile Include="Assets/UniGLTF/Core/Scripts/UniGLTFVersion_partial.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
      <Compile Include="Assets/UniGLTF/UniJSON/Scripts/JsonSchemaValidator/JsonArrayValidator.cs" />
-     <Compile Include="Assets/Levels/MyScripts/TimeTracker.cs" />
      <None Include="Assets/Avatare/UnityChan/Models/UnityChanShader/Shader/Unitychan_chara_fuku.shader" />
      <None Include="Assets/Avatare/AudioBoy/Licence.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

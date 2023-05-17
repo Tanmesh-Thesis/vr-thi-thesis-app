@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Levels/MyScenes/Car Simulation/NewCarInfo.unity
+- path: Assets/Levels/MyScenes/ATM/ATM-GOMS-Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Levels/MyScenes/Living Room/LivingRoomTry.unity
+- path: Assets/Levels/MyScenes/Car Simulation/FinalCarCanvas.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

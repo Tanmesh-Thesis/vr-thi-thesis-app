@@ -40,7 +40,7 @@ public class TimeTracker : MonoBehaviour
             int seconds = Mathf.FloorToInt(elapsedTime % 60f);
             //Debug.Log("the elapsed time"+seconds);
             CarManager.receiveData = true;
-            if (seconds > 4)
+            if (seconds > 15)
             {
                 CarManager.userSuccess = false;
             }

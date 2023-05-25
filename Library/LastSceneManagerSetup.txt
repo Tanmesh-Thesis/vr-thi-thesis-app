@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Levels/MyScenes/Classroom/GOMS/GOMSStudied.unity
+- path: Assets/Levels/MyScenes/Car Simulation/02NewCarStartDiff.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

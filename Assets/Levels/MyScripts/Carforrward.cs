@@ -34,8 +34,8 @@ public class Carforrward : MonoBehaviour
         if (direction.sqrMagnitude > 0.2f)
         {
             direction = direction.normalized;
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0.0f, targetAngle, 0.0f);
+            float targetAngle = 0;// Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
+            //transform.rotation = Quaternion.Euler(0.0f, targetAngle, 0.0f);
             controller.Move(direction * movementSpeed * Time.deltaTime);
         }
         else

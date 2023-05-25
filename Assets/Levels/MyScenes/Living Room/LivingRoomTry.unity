@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4608958, g: 0.59914464, b: 0.7163813, a: 1}
+  m_IndirectSpecularColor: {r: 0.46091905, g: 0.5992369, b: 0.71671855, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14943,9 +14943,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719919242}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -1.3367589}
-  m_LocalScale: {x: 0.0010000003, y: 0.001, z: 0.0010000003}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -1.336}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 25394009}
@@ -14954,7 +14954,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.24368837, y: 977.3534}
+  m_AnchoredPosition: {x: 2.877, y: 1.298}
   m_SizeDelta: {x: 1874.1145, y: 1156.3191}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &719919244
@@ -23608,8 +23608,8 @@ MonoBehaviour:
   m_Camera: {fileID: 1562808240}
   m_OriginBaseGameObject: {fileID: 1065568500}
   m_CameraFloorOffsetObject: {fileID: 77160913}
-  m_RequestedTrackingOriginMode: 2
-  m_CameraYOffset: 1.1176
+  m_RequestedTrackingOriginMode: 1
+  m_CameraYOffset: 0.4
 --- !u!4 &1065568503
 Transform:
   m_ObjectHideFlags: 0

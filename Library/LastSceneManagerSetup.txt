@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Levels/MyScenes/Car Simulation/02NewCarStartDiff.unity
+- path: Assets/Levels/MyScenes/Car Simulation/NewCarInfo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

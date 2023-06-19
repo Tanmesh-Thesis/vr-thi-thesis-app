@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Levels/MyScenes/Classroom/Fitts/FittsEqn.unity
+- path: Assets/Levels/MyScenes/Classroom/NewClassroomScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

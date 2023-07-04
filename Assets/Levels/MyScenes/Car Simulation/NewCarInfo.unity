@@ -11397,6 +11397,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: autonomous_gt_car_interior_design_-_manual_mode
       objectReference: {fileID: 0}
+    - target: {fileID: 5067027501718192175, guid: db96572e2b7e2401982e130d280ceac8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067027501718192175, guid: db96572e2b7e2401982e130d280ceac8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067027501718192175, guid: db96572e2b7e2401982e130d280ceac8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5098892563801388959, guid: db96572e2b7e2401982e130d280ceac8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.97
@@ -11432,6 +11444,18 @@ PrefabInstance:
     - target: {fileID: 5098892563801388959, guid: db96572e2b7e2401982e130d280ceac8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5872711453146373617, guid: db96572e2b7e2401982e130d280ceac8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5872711453146373617, guid: db96572e2b7e2401982e130d280ceac8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5872711453146373617, guid: db96572e2b7e2401982e130d280ceac8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.98
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db96572e2b7e2401982e130d280ceac8, type: 3}
